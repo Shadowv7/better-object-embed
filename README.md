@@ -13,8 +13,8 @@ npm i better-object-embed
 ## Usage
 
 ```js
-const BetterObjectEmbed = require("better-object-embed"); // require better-object-embed.
-const embed = new BetterObjectEmbed() // constructor
+const BetterObjectEmbed = require("better-object-embed") // require better-object-embed.
+const embed = new BetterObjectEmbed() //constructor
 
 .setTitle("A title")
 .setDescription("A beautiful description")
