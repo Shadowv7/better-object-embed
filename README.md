@@ -1,7 +1,7 @@
 
 # Better-object-embed
 
-Better-object-embed is a module that allows you to make embed objects more easily. Better-object-embed doesn't use discord.js.
+Better-object-embed is a module that allows you to make embed objects more easily. It is used to transform a builder into an object.Better-object-embed doesn't use discord.js.
 ## Installation
 
 
