@@ -28,7 +28,7 @@ module.exports = class BetterEmbed {
     this.description = value;
     return this;
   }
-  setAuthor(value) {
+  setAuthor(value,icon,url) {
     this.author = value;
     this.author_icon = icon;
     this.author_url = url;
