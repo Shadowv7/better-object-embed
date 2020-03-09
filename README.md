@@ -14,13 +14,15 @@ npm i better-object-embed
 
 ```js
 const BetterObjectEmbed = require("better-object-embed"); // require better-object-embed.
-const embed = new BetterObjectEmbed() //constructor
+const embed = new BetterObjectEmbed(); // constructor
 
 .setTitle("A title")
 .setDescription("A beautiful description")
 .setColor("RED")
-.addField("name","value",inline)
-.setAuthor("name","icon")
+.addField("name","value",inline) //inline must be true or false
+.addBlankField()
+.setAuthor("name","icon","url")
+.attachFiles(file)
 .setImage("url")
 .setThumbnail("url")
 .setFooter("name","icon")
