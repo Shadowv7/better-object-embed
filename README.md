@@ -14,8 +14,8 @@ npm i better-object-embed
 
 ```js
 const BetterObjectEmbed = require("better-object-embed") // require better-object-embed.
-const embed = new BetterObjectEmbed() //constructor
-
+const Embed = new BetterObjectEmbed(); // constructor
+Embed
 .setTitle("A title")
 .setDescription("A beautiful description")
 .setColor("RED")
@@ -27,4 +27,5 @@ const embed = new BetterObjectEmbed() //constructor
 .setThumbnail("url")
 .setFooter("name","icon")
 .setTimestamp(Date.now())
+message.channel.send({embed: Embed.build})
 ```
