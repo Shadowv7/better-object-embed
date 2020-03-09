@@ -14,9 +14,9 @@ npm i better-object-embed
 
 ```js
 const BetterObjectEmbed = require("better-object-embed") // require better-object-embed.
-const Embed = new BetterObjectEmbed(); // constructor
+const Embed = new BetterObjectEmbed()
 
-Embed.setTitle("A title")
+.setTitle("A title")
 .setDescription("A beautiful description")
 .setColor("RED")
 .addField("name","value",inline) //inline must be true or false
