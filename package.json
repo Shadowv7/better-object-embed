@@ -1,0 +1,22 @@
+{
+  "name": "better-object-embed",
+  "version": "1.0.0",
+  "description": "Better-object-embed is a module that allows you to make embed objects more easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shadowv7/better-object-embed.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "shadowv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shadowv7/better-object-embed/issues"
+  },
+  "homepage": "https://github.com/Shadowv7/better-object-embed#readme"
+}
