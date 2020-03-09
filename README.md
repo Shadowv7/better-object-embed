@@ -7,10 +7,10 @@ Better-object-embed is a module that allows you to make embed objects more easil
 
 
 ```
-npm i better-object-embed
+npm i --s better-object-embed
 ```
 
-## Usage
+## Example
 
 ```js
 const BetterObjectEmbed = require("better-object-embed") // require better-object-embed.
